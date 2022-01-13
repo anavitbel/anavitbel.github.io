@@ -2026,34 +2026,7 @@ img,
  * # preloader
  *
  * ------------------------------------------------------------------- */
-#preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: -ms-flexbox;
-    display: -webkit-box;
-    display: flex;
-    -ms-flex-flow: row wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    flex-flow: row wrap;
-    -ms-flex-pack: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -ms-flex-line-pack: center;
-    align-content: center;
-    background: #050505;
-    z-index: 500;
-    height: 100vh;
-    width: 100%;
-    opacity: 1;
-}
 
-.no-js #preloader, .oldie #preloader {
-    display: none;
-}
 
 #loader {
     width: var(--vspace-1_5);
@@ -2101,18 +2074,8 @@ img,
 /* ------------------------------------------------------------------- 
  * ## page loaded
  * ------------------------------------------------------------------- */
-.ss-loaded #preloader {
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: all .6s .9s ease-in-out;
-    transition: all .6s .9s ease-in-out;
-}
 
-.ss-loaded #preloader #loader {
-    opacity: 0;
-    -webkit-transition: opacity .6s ease-in-out;
-    transition: opacity .6s ease-in-out;
-}
+
 
 
 /* ===================================================================
@@ -3447,7 +3410,7 @@ input[type="button"].btn--primary:focus {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/header-bg-3000.webp);
+    background-image: url(../images/header-bg-3000.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3644,14 +3607,7 @@ input[type="button"].btn--primary:focus {
 /* -------------------------------------------------------------------
  * ## animate hero content
  * ------------------------------------------------------------------- */
-.ss-preload .s-header, 
-.ss-preload .s-hero {
-    visibility: hidden;
-    opacity: 0;
-}
-.ss-preload .s-hero__content {
-    opacity: 0;
-}
+
 .ss-loaded .s-header,
 .ss-loaded .s-hero {
     visibility: visible;
