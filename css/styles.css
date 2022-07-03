@@ -2899,7 +2899,7 @@ input[type="button"].btn--primary:focus {
     margin-top: 0;
     margin-bottom: var(--vspace-1_5);
     position: relative;
-    
+}   
 
 .section-header-allcaps:after {
     content: "";
