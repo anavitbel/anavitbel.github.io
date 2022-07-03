@@ -9,7 +9,6 @@
  *      ## fonts
  *      ## colors
  *      ## vertical spacing and typescale
- *      ## grid variables
  * # normalize
  * # basic/base setup styles
  *      ## media
@@ -2900,7 +2899,6 @@ input[type="button"].btn--primary:focus {
     margin-top: 0;
     margin-bottom: var(--vspace-1_5);
     position: relative;
-    writing-mode:vertical-rl;
     
 
 .section-header-allcaps:after {
