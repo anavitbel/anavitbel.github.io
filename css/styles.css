@@ -2899,7 +2899,13 @@ input[type="button"].btn--primary:focus {
     margin-top: 0;
     margin-bottom: var(--vspace-1_5);
     position: relative;
-}   
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+    
 
 .section-header-allcaps:after {
     content: "";
